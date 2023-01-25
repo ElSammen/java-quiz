@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(66, 65, 65);
+}
+
+.card {
+    height: 100%;
+    width: 75%;
+}
+
+.btn-house {
+display: grid;
+grid-template-columns: repeat(2, auto);
+gap: 5px;
+}
+
+.btn {
+    background-color: rgb(52, 30, 104);  
+    color: rgb(199, 199, 196);
+}
+
+#quizbox {
+    background-color: rgb(54, 50, 64);
+    color: rgb(199, 199, 196);
+    box-shadow: rgba(3, 13, 23, 0.4) 0px 0px 0px 2px, rgba(6, 22, 40, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hide {
+    display: none;
+}
